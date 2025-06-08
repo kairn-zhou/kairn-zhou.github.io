@@ -8,7 +8,7 @@ Art enjoyer, food grower, cartoon watcher, sewist, reader, astronomical and atom
 ## my work
 [art](/categories/my-art)\
 [writing](/my-words)\
-[misc](my-misc)
+[misc](/my-misc)
 
 ## contact me
 kairnzhou303[at]gmail.com\

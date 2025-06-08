@@ -6,7 +6,7 @@ description: does this description stuff even do anything bro
 categories: notetag
 ---
 
-post to test features
+hello post to test features
 
 Content graph view
 A standout feature of this theme is the ability to link posts and notes together, displayed in a network graph similar to those in personal knowledge apps like Obsidian. This content graph creates a web of your knowledge, making it easy for you and your readers to explore related notes and see how everything is connected.
@@ -39,4 +39,4 @@ Be careful when modifying these files, as incorrect changes can lead to errors.
 Deleting this file is permanent and cannot be undone. Double-check before you confirm.
 {{< /admonition >}}
 
-![alt text](image.png)
+![this is a test image](/posts/firstpost/testimage.png)

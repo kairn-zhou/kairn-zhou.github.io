@@ -1,4 +1,4 @@
-baseURL = 'kairn-zhou.github.io'
+baseURL = 'https://kairn-zhou.github.io'
 languageCode = 'en-us'
 title = "kairn's garden"
 copyright = 'Kairn Zhou' # Used in the footer copyright mention.
