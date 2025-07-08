@@ -1,7 +1,8 @@
 ---
-title: Tags / Categories
+title: Categories
+layout: tagslist
 ---
 
-hugo\
-my-words\
-pushing
+<!-- ## Favourites
+
+## All Categories -->

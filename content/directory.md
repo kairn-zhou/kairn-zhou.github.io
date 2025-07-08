@@ -1,10 +1,10 @@
 ---
-title: directory
+title: Directory
 layout: graph
 outputs: [html, json]
 ---
 
-## my work
+## My Work
 [art](/categories/my-art)\
 [writing](/categories/my-words)\
 [community](/categories/my-community)\
@@ -12,9 +12,10 @@ outputs: [html, json]
 
 ...or just what I'm doing [now](/now)
 
-## misc
+## Misc
 [my favourite things](/myfavs)\
 [reading log](/categories/reading-log)\
+[how I made this site](/posts/2025-07-02_how-i-made-this-site/2025-07-02_how-i-made-this-site)\
 [**mind the leaky irrigation (coming soon)**](/404)
 
-## graph
+## Graph

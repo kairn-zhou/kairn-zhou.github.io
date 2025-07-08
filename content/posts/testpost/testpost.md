@@ -1,7 +1,8 @@
 ---
 title: testpost
-date: 2025-06-04
+date: 2025-01-01
 categories:
+draft: true
 ---
 
 ![this is a test image](/posts/testpost/testimage.png "text")

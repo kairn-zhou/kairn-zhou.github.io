@@ -41,11 +41,6 @@ enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's g
       [markup.goldmark.parser.attribute]
         block = true
 
-# from making github deployment workflow
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
-
 [params]
   # Set how dates should appear across the site.
   # For format options, visit https://gohugo.io/functions/time/format/

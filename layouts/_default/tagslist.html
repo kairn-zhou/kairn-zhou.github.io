@@ -1,0 +1,78 @@
+<!doctype html>
+<html
+  lang="{{ or site.Language.LanguageCode }}"
+  dir="{{ or site.Language.LanguageDirection `ltr` }}"
+>
+  <head>
+    {{ partial "head.html" . }}
+    <style>
+      ul.no-bullets {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }      
+    </style>
+  </head>
+  <body>
+    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
+      <header class="flex flex-row items-center justify-between">
+        {{ partial "header.html" . }}
+      </header>
+      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+        {{ block "main" . }}{{ end }}
+
+        <article class="main">
+          <header>
+            <h1 class="!mb-1">{{ .Title | title }}</h1>
+          </header>
+
+          {{ .Content }}
+
+          <div class="flex flex-col space-y-8">
+            <aside class="relative flex flex-col space-y-1">
+              {{- if default true site.Params.tags.showCategoryFilter }}
+                <ul class="flex flex-row flex-wrap space-x-2 pl-2 no-bullets">
+                    {{ $categories:= site.Taxonomies.categories }}
+                    {{ range $name, $taxonomy := $categories }}
+                      {{ $count := 0 }}
+                      {{- range $page := $taxonomy.Pages }}
+                        {{ if eq $page.Section "notes" }}{{ $count = add $count 1 }}{{ end }}
+                        {{ if eq $page.Section "posts" }}{{ $count = add $count 1 }}{{ end }}
+                      {{- end }}
+                      {{- if gt $count 0 }}
+                        <li class="first:ml-2">
+                          <a href="{{ $taxonomy.Page.RelPermalink }}" class="taxonomy">
+                            <span>{{ $name }}</span>
+                            <span class="count">{{ $count }}</span>
+                          </a>
+                        </li>
+                      {{- end }}
+                    {{- end }}
+                  </ul>
+              {{- end }}
+            </aside>
+          </div>
+        </article>
+
+
+      </main>
+      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+        {{ partial "footer.html" . }}
+      </footer>
+    </div>
+    {{ if .Store.Get "hasMermaid" }}
+      <script
+        src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js"
+        integrity="sha256-G8ouPAnw4zzMbnAenHnVz6h9XpKbNdOkrqTh7AadyHs="
+        crossorigin="anonymous"
+      ></script>
+      <script type="text/javascript">
+        mermaid.initialize({
+          startOnLoad: true,
+          theme: 'neutral',
+          fontFamily: "'LatoLatinWeb', sans-serif"
+        });
+      </script>
+    {{ end }}
+  </body>
+</html>
