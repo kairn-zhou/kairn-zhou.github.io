@@ -27,7 +27,7 @@ It isn't black and white. Big things are of course made up of many many small th
 
 One of her works lays out small elements in a grid pattern. Each of them are small and unique, and I find them to be beautiful. But a part of their beauty also comes from knowledge of the bigness that Bessho composes by aggregating them together. A castle cannot exist without each stone, and each stone's is elevated by its contribution to the castle. This relationship is of course not unique to Bessho's work, but I believe her work is particularly effective at demonstrating it. 
 
-Recently, Becchi Ayumi Bessho's solo art exhibition launched at Lucky's Books and Comics, far from her home in Japan. In *Moon Castle Museum*, her works display peculiar organo-geometric form, with candy-sweet colours arranged in the likeness of tapestry. I already bought her art book at the Vancouver Art Book Fair, but seeing the pieces in person was a completely different and dizzying experience.
+Recently, Becchi Ayumi Bessho's solo art exhibition launched at [Lucky's Books and Comics](https://luckys.ca/), far from her home in Japan. In *Moon Castle Museum*, her works display peculiar organo-geometric form, with candy-sweet colours arranged in the likeness of tapestry. I already bought her art book at the Vancouver Art Book Fair, but seeing the pieces in person was a completely different and dizzying experience.
 
 ![enmeshed](/posts/2025-07-07_small-things-big-things/enmeshed.jpg)
 
