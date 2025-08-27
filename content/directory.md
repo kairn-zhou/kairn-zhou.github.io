@@ -6,7 +6,7 @@ outputs: [html, json]
 
 ## My Work
 [art](/categories/my-art)\
-[writing](/categories/my-words)\
+[writing](/categories/my-essays)\
 [community](/categories/my-community)\
 [misc](/categories/my-misc)
 

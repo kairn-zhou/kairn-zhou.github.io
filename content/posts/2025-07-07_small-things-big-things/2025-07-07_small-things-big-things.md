@@ -2,8 +2,8 @@
 title: "Small Things, Big Things: The Dizzying and Balancing Art of Becchi Ayumi Bessho"
 date: 2025-07-07
 categories: 
-- my-words
-- art-review
+- art
+- my-essays
 draft: false
 ---
 
